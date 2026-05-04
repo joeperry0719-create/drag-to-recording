@@ -1,0 +1,18 @@
+{
+  "package": "screen-region-recorder-codex-plan-package",
+  "created_for": "VS Code Codex implementation workflow",
+  "goal": "Select a screen region and record it to MP4 over time",
+  "mvp_stack": [
+    "Python 3.11+",
+    "PySide6",
+    "mss",
+    "numpy",
+    "imageio-ffmpeg",
+    "pytest"
+  ],
+  "entry_prompts": [
+    "GOAL_PROMPT.md",
+    "prompts/01_models_and_tests.md"
+  ],
+  "file_count": 55
+}

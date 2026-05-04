@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtualenv
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+build_exe/
+dist/
+dist_exe/
+*.egg-info/
+
+# Local outputs
+*.mp4
+*.mov
+*.avi
+outputs/
+recordings/
+verification_outputs/
+release_assets/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+.idea/
+
+# Codex local config, if created
+.codex/
